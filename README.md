@@ -1,4 +1,5 @@
 # inzidenz-site
+hab die seite jetzt auch noch schnell auf vue.js umgestellt
 
 ## Project setup
 ```
@@ -14,11 +15,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

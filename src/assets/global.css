@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+:root {
+    --font: "Source Sans Pro";
+}
+
+@media screen and (min-width: 700px){
+    :root {
+        --copyright-font-size: 16px;
+        --copyright-br-state: none;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: var(--font);
+    font-weight: 400;
+}

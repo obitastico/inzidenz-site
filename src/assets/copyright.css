@@ -1,0 +1,25 @@
+.copyright {
+    padding: 20px;
+    font-size: var(--copyright-font-size);
+    text-align: center;
+}
+
+.small-br {
+    display: var(--copyright-br-state);
+}
+
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

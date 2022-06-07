@@ -1,5 +1,6 @@
 <template>
   <div>
+Leon hier könnte deine Werbung sein wen du mir Finanzspritzen gibst<br>
     Es sind 5 Karten zum traden 
     <h1>Inzidenz von München:</h1>
     <div id="container">

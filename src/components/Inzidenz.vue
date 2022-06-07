@@ -1,5 +1,6 @@
 <template>
   <div>
+    Es sind 5 Karten zum traden 
     <h1>Inzidenz von München:</h1>
     <div id="container">
       <p id="inzidenz" class="zoom">{{ inzidenz }}</p>

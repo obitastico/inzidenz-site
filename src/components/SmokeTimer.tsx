@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { format, addMinutes, differenceInMinutes } from 'date-fns';
+import { format, addMinutes } from 'date-fns';
 import { de } from 'date-fns/locale';
 
 interface SmokeBreak {

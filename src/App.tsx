@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import SmokeTimer from './components/SmokeTimer';
 import Settings from './components/Settings';
 import BreakHistory from './components/BreakHistory';
@@ -81,10 +81,7 @@ function App() {
     setBreakDuration(duration);
   };
 
-  // Handle active break state
-  const handleActiveBreakChange = (active: boolean) => {
-    setHasActiveBreak(active);
-  };
+
 
   return (
     <div className="min-h-screen bg-gray-950 flex flex-col">

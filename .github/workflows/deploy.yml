@@ -29,10 +29,10 @@ jobs:
       - run: npm run build
 
       - name: SFTP Uploader
-        uses: wangyucode/sftp-upload-action@v1.1
+        uses: wangyucode/sftp-upload-action@v2.0.4
         with:
           host: ${{ secrets.SFTP_HOST }}
           username: ${{ secrets.SFTP_USERNAME }}
           password: ${{ secrets.SFTP_PASSWORD }}
-          localDir: ./dist
+          localDir: "dist"
           remoteDir: /inzidenz
